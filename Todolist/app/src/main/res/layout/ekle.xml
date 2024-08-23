@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginHorizontal="16dp"
+    android:layout_marginVertical="30dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:padding="15dp">
+
+
+        <Button
+            android:id="@+id/KaydetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/YeniText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="24dp"
+            android:background="@android:color/transparent"
+            android:text="Kaydet"
+            android:textAllCaps="false"
+            android:textColor="#FFC107"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/YeniText"
+            android:layout_width="347dp"
+            android:layout_height="37dp"
+            android:background="@null"
+            android:hint="Yeni Görev"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
